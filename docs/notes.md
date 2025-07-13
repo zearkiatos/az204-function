@@ -20,3 +20,8 @@ $ func start --build
 ```sh
 $ curl -X POST -i http://localhost:7071/api/az204_http_trigger_function
 ```
+
+5. Create a second function
+```sh
+$ func new --template "Timer trigger" --name "az204-prog-timer-fuction"
+```
